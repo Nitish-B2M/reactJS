@@ -27,6 +27,7 @@ padding: 10px 130px;
 }
 .logo .company_name{
     cursor: pointer;
+    color: #ffffff;
     letter-spacing: 2px;
     font-weight: 400;
     font-size: 18px;
@@ -56,8 +57,82 @@ li a:hover{
 }
 .login-css{
     display: flex;
+    align-items: center;
 }
 
 a:hover{
     color: darkgreen;
+}
+
+.navbar1{
+    background-color: cornflowerblue;
+    margin-top: 60px;
+}
+.navbar1 .company_name{
+    color: white;
+    border-color: rgb(6, 65, 175);
+}
+.navbar1{
+    display: flex;
+    justify-content: space-around;
+}
+.navbar1 .navbar_menu ul li a:hover{
+    color: rgb(0, 58, 134);
+}
+
+.navbar2{
+    margin-top: 60px;
+    background-color: #f03e3e;
+}
+.navbar2 .logo_plus_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar2 .logo{
+    margin-right: 10px;
+    border-color: #a01212;
+}
+.navbar2 a:hover{
+    color: rgb(116, 1, 1);
+}
+
+.navbar3{
+    margin-top: 60px;
+    background-color: #07737a;
+}
+
+.navbar3 .menu_plus_login{
+    display: flex;
+    justify-content: space-around;
+}
+.navbar3 .logo{
+    margin-right: 10px;
+    border-color: #12a099;
+}
+.navbar3 a:hover{
+    color: rgb(5, 54, 61);
+}
+.navbar3 .login-css{
+    margin-left: 15px;
+}
+
+
+.navbar4{
+    margin-top: 60px;
+}
+
+.logo2{
+    padding: 5px;
+    display: flex;
+    justify-content: left;
+    margin-right: 10px;
+}
+
+.logo2 .company_name{
+    cursor: pointer;
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 18px;
 }
